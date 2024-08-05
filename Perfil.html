@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="img/yo.png" type="image/png">
+    <title>Perfil: Miqueas Garcia</title>
+    <link rel="stylesheet" href="Perfil.css">
+</head>
+<body>
+    <!--MENU ENCABEZADO-->
+    <div class="content-header">
+        <header>
+                <div class="logo">
+                    <a href="#">Miqueas</a>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li> <a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                        <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li> 
+                        <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                        <li><a href="#curriculum" onclick="seleccionar()">EDUCACION</a></li>   
+                        <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                        <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>   
+                    </ul>
+                </nav>
+                <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+        </header>
+    </div>
+    
+       <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/yo.png" alt="">
+            </div>
+            <h1>MIQUEAS GARCIA</h1>
+            <h2>Desarrolador de Software - Especializado en Javascript</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/miqueas_garcia7/" target="_blank" ><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.link/zi2m62" target="_blank" ><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="mailto:garciamiqueas77@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/lauta-garcia-929b9625a/" target="_blank" ><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+     </section>
+
+     <!--SECCION SOBRE MI -->
+     <section id="sobremi" class="sobremi">
+         <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, soy Miqueas Garcia,</span> tengo 20 años y me encuentro cursando  la tecnicatura en desarrollo de software. Soy muy capaz de adaptarme a diferentes circunstancias y disfruto trabajando en equipo para alcanzar objetivos comunes. Además, me considero una persona creativa, curiosa y apasionada por la tecnología.
+            </p>
+
+            <div class="fila">
+                <!--datos personales-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            8-12-2003
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            223-6866-850
+                        </li>
+                        <li>
+                            <strong>Emial</strong>
+                            garciamiqueas77@gmail.com
+                        </li>
+                        <li>
+                            <strong>Mi empresa</strong>
+                            <a href="https://roas.mitiendanube.com/">Roas.tech</a>
+                        </li>
+                        <li>
+                            <strong>Localidad</strong>
+                            Mar del Plata,Argentina
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- intereses-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                    <div class="interes"><i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-headphones"></i>
+                        <span>MUSICA</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-plane"></i>
+                        <span>VIAJAR</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-brands fa-apple"></i>
+                        <span>MAC OS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-person-hiking"></i>
+                        <span>DEPORTE</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-book"></i>
+                        <span>LIBROS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-car"></i>
+                        <span>AUTOS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-camera"></i>
+                        <span>FOTOS</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <a href="Currículum.pdf">
+            <button>
+                Descargar CV<i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+         </a>
+         </div>
+     </section>
+
+     <!--SECCION SKILLS-->
+     <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--Technical skills-->
+                <div class="col">
+                    <h3>Technicals Skills</h3>
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>10%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Professional Skills-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Resposable</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+     </section>
+   
+
+     <!--SECCION EDUCACION-->
+
+     <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Educacion</h2>
+            <div class="fila">
+                <div class="col izquierda">                   
+                    <div class="item izq">
+                        <h4>Secundario completo</h4>
+                        <span class="casa">Ecuela La Chacra</span>
+                        <span class="fecha">2016 - 2021</span>
+                        <p>
+                            Con un sólido respaldo educativo, me gradué en el año 2021 del secundario en la  Escuela La Chacra. Durante esos años, adquirí no solo conocimientos académicos, sino también habilidades que me han preparado para enfrentar los desafíos que se presenten en el futuro. Ahora, estoy emocionado por aplicar lo aprendido y seguir creciendo tanto personal como profesionalmente</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Instituto de ingles</h4>
+                        <span class="casa">Instituto superior de ingles</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>Con una base sólida en mi educación secundaria, complementé mis estudios con un año en un instituto de inglés, donde adquirí habilidades que me han permitido alcanzar un nivel intermedio en el idioma. Esta experiencia ha ampliado mis horizontes y me ha brindado la confianza necesaria para comunicarme eficazmente en inglés tanto en entornos académicos como profesionales. Estoy entusiasmado por seguir mejorando y aplicando mis habilidades lingüísticas en nuevos contextos</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>                 
+                </div>
+                <div class="col derecha">                 
+                    <div class="item der">
+                        <h4>Curso de desarrolo web</h4>
+                        <span class="casa">Centro de formacion profesional(SEC 204)</span>
+                        <span class="fecha">2022 - 2024</span>
+                        <p>Durante un año, me sumergí en el estudio autodidacta, explorando diferentes lenguajes de programación y herramientas para crear sitios web dinámicos y funcionales. Posteriormente, continué mi formación participando en una capacitación anual especializada en desarrollo web, donde pude consolidar y ampliar mis conocimientos, así como aprender nuevas técnicas y tendencias en el área. Estas experiencias han fortalecido mi pasión por la tecnología y mi capacidad para enfrentar desafíos con creatividad y determinación en el mundo digital.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Curso de Java ( sistema de facturacion )</h4>
+                        <span class="casa">Centro de formacion profesional(SEC 204)</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>
+                            Estudié Java durante un año, especializándome en sistemas de facturación. Además, trabajé con MySQL para gestionar bases de datos. Estoy emocionado por aplicar estas habilidades en el desarrollo de software.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>                  
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- SECCION PORTAFOLIO-->
+     <section id="portafolio" class="portafolio">
+            <div class="contenido-seccion">
+                <h2>Portafolio</h2>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <img src="img/p1.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografia</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/p2.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografia</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/p3.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografia</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/p4.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografia</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/p5.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografia</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/p6.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+     </section>
+
+     <!--SECCION CONTACTO-->
+
+     <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!--Formulario-->
+                <div class="col">
+                    <input id="name"  type="text" placeholder="Tu Nombre">
+                    <input id="numero"  type="number" placeholder="Numero telefonico">
+                    <input id="email"  type="email" placeholder="Direccion de correo">
+                    <input id="asunto"  type="text" placeholder="Tema">
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <a href="https://wa.link/jnr79v">
+                    <button>
+                        Enviar mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>                  
+                    </button>
+                </a>
+                </div>
+            </form>
+                <!--Mapa-->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Argentina, Mar del Plata
+                            </li>
+                            <li>
+                                <a href="tel:2236866850"><i class="fa-solid fa-mobile-screen"></i>
+                                 223-6866-850</a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: garciamiqueas77@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+
+     <!--SECCION FOOTER-->
+
+     <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.instagram.com/miqueas_garcia7/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.link/zi2m62" target="_blank" ><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="mailto:garciamiqueas77@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/lauta-garcia-929b9625a/" target="_blank" ><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+     </footer>
+     <script src="Perfil.js"></script>
+</body>
+</html>
